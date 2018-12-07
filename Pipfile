@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+flask-script = "*"
+flask-migrate = "*"
+flask-sqlchemy = "*"
+flask-sqlalchemy = "*"
+mysqlclient = {path = "./mysqlclient-1.3.13-cp37-cp37m-win_amd64.whl"}
+mysqldb = "*"
+
+[requires]
+python_version = "3.7"
